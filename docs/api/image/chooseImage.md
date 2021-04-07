@@ -13,19 +13,21 @@ nav:
 
 ##### <Badge>umd 使用方式</Badge>
 
-```js
+``` js
 isgBridge.chooseImage(parmas);
 ```
 
 ##### <Badge>cmd 使用方式</Badge>
 
-```js
-import { chooseImage } from 'isg-bridge';
+``` js
+import {
+    chooseImage
+} from 'isg-bridge';
 ```
 
 ### 返回值: `Promise<Result>`
 
-```typescript
+``` typescript
 type Result = Array<{
   url: string;
 }>;
@@ -35,7 +37,7 @@ type Result = Array<{
 
 <Badge>async/await</Badge>
 
-```typescript
+``` typescript
 const params: ChooseImageProps = {
   count: 4,
   sourceType: 'all',
@@ -50,7 +52,7 @@ try {
 
 <Badge>promise</Badge>
 
-```typescript
+``` typescript
 const params: ChooseImageProps = {
   count: 4,
   sourceType: 'all',
@@ -67,15 +69,15 @@ chooseImage(params)
 
 ### 属性
 
-| 参数   | 说明 | 类型             | required |
-| ------ | ---- | ---------------- | -------- |
-| parmas | 参数 | ChooseImageProps | `object` |
+| 参数   | 说明 | 类型             | required |  sdk 版本 |  app 版本 |
+| ------ | ---- | ---------------- | -------- |------------| -------------|
+| parmas | 参数 | ChooseImageProps | `object` |   1.0.0     |   4.4.8      |
 
 ### `ChooseImageProps`
 
 | 参数        | 说明                   | 类型                         | 默认值 |
 | ----------- | ---------------------- | ---------------------------- | ------ |
-| count       | 最多可以选择的图片张数 | `number`                     | 1      |
-| sourceType  | 选择图片的来源         | `album` \| `camera` \| `all` | `all`  |
-| saveToAlbum | 是否保存到相册         | `boolean`                    | true   |
-| compress    | 是否压缩图片           | `boolean`                    | true   |
+| count       | 最多可以选择的图片张数 | `number` | 1      |
+| sourceType  | 选择图片的来源         | `album` \| `camera` \| `all` | `all` |
+| saveToAlbum | 是否保存到相册         | `boolean` | true   |
+| compress    | 是否压缩图片           | `boolean` | true   |

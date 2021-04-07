@@ -6,13 +6,25 @@ export default defineConfig({
   navs: {
     'en-US': [
       null,
-      { title: 'GitHub', path: 'https://github.com/aiolosjs' },
-      { title: 'Changelog', path: 'https://github.com/aiolosjs/releases' },
+      {
+        title: 'GitHub',
+        path: 'https://gitlab.ishanggang.com/isg-group/front/isg-jsbridge',
+      },
+      {
+        title: 'Changelog',
+        path: 'https://gitlab.ishanggang.com/isg-group/front/isg-jsbridge',
+      },
     ],
     'zh-CN': [
       null,
-      { title: 'GitHub', path: 'https://github.com/aiolosjs' },
-      { title: '更新日志', path: 'https://github.com/aiolosjs/releases' },
+      {
+        title: 'GitHub',
+        path: 'https://gitlab.ishanggang.com/isg-group/front/isg-jsbridge',
+      },
+      {
+        title: '更新日志',
+        path: 'https://gitlab.ishanggang.com/isg-group/front/isg-jsbridge',
+      },
     ],
   },
   favicon:

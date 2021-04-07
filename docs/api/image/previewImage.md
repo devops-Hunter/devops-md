@@ -13,14 +13,16 @@ nav:
 
 ##### <Badge>umd 使用方式</Badge>
 
-```js
+``` js
 isgBridge.previewImage(parmas);
 ```
 
 ##### <Badge>cmd 使用方式</Badge>
 
-```js
-import { previewImage } from 'isg-bridge';
+``` js
+import {
+    previewImage
+} from 'isg-bridge';
 ```
 
 ### 返回值: `Promise<Result>`
@@ -29,7 +31,7 @@ import { previewImage } from 'isg-bridge';
  正常情况下没有返回值，如有错误，在catch中捕获
 </Alert>
 
-```typescript
+``` typescript
 type Result = any;
 ```
 
@@ -37,7 +39,7 @@ type Result = any;
 
 <Badge>async/await</Badge>
 
-```typescript
+``` typescript
 const urls = Array.from({ length: 4 }).map((_, idx) => 'http://${idx}.jpg');
 const params: PreviewImageProps = {
   urls,
@@ -53,7 +55,7 @@ try {
 
 <Badge>promise</Badge>
 
-```typescript
+``` typescript
 const urls = Array.from({ length: 4 }).map((_, idx) => 'http://${idx}.jpg');
 const params: PreviewImageProps = {
   urls,
@@ -71,14 +73,14 @@ previewImage(params)
 
 ### 属性
 
-| 参数   | 说明              | 类型     | required |
-| ------ | ----------------- | -------- | -------- |
-| parmas | PreviewImageProps | `object` | `true`   |
+| 参数   | 说明              | 类型     | required |  sdk 版本 |  app 版本 |
+| ------ | ----------------- | -------- | -------- |------------| -------------|
+| parmas | PreviewImageProps | `object` | `true` |   1.0.0     |   4.4.8      |
 
 ### `PreviewImageProps`
 
 | 参数    | 说明                   | 类型       | 默认值                                      |
 | ------- | ---------------------- | ---------- | ------------------------------------------- |
 | urls    | 需要预览的图片链接列表 | `string[]` |                                             |
-| current | urls 中的 url          | `string`   |
-| idx     | urls 的索引            | `number`   | `idx` 和 `current` 传一个即可，current 优先 |
+| current | urls 中的 url          | `string` |
+| idx     | urls 的索引            | `number` | `idx` 和 `current` 传一个即可，current 优先 |

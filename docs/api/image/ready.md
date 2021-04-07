@@ -13,18 +13,20 @@ nav:
 
 ##### <Badge>umd 使用方式</Badge>
 
-```js
+``` js
 isgBridge.ready(callback);
 ```
 
 ##### <Badge>cmd 使用方式</Badge>
 
-```js
-import { ready } from 'isg-bridge';
+``` js
+import {
+    ready
+} from 'isg-bridge';
 ```
 
 ### 属性
 
-| 参数     | 说明     | 类型     | required |
-| -------- | -------- | -------- | -------- |
-| callback | 回调函数 | Function | true     |
+| 参数     | 说明     | 类型     | required |  sdk 版本 |  app 版本 |
+| -------- | -------- | -------- | -------- |------------| -------------|
+| callback | 回调函数 | Function | true      |   1.0.0     |   4.4.8      |
