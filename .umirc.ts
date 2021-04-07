@@ -33,26 +33,4 @@ export default defineConfig({
     'https://frontassets.oss-cn-shanghai.aliyuncs.com/assets/%E7%88%B1%E4%B8%8A%E5%B2%97logo130-130.png',
   outputPath: 'docs-dist',
   hash: true,
-  chunks: ['vendors', 'umi'],
-  chainWebpack: function(config) {
-    config.merge({
-      optimization: {
-        splitChunks: {
-          chunks: 'all',
-          minSize: 30000,
-          minChunks: 3,
-          automaticNameDelimiter: '.',
-          cacheGroups: {
-            vendor: {
-              name: 'vendors',
-              test({ resource }) {
-                return /[\\/]node_modules[\\/]/.test(resource);
-              },
-              priority: 10,
-            },
-          },
-        },
-      },
-    });
-  },
 });
