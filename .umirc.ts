@@ -1,36 +1,36 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'isgBridge',
+  title: 'HunterのDevops',
   mode: 'site',
   navs: {
     'en-US': [
       null,
       {
         title: 'GitHub',
-        path: 'https://gitlab.ishanggang.com/isg-group/front/isg-jsbridge',
+        path: 'https://github.com/Hunter-Shen-N/devops-md.git',
       },
       {
         title: 'Changelog',
-        path: 'https://gitlab.ishanggang.com/isg-group/front/isg-jsbridge',
+        path: 'https://github.com/Hunter-Shen-N/devops-md/commits/main',
       },
     ],
     'zh-CN': [
       null,
       {
         title: 'GitHub',
-        path: 'https://gitlab.ishanggang.com/isg-group/front/isg-jsbridge',
+        path: 'https://github.com/Hunter-Shen-N/devops-md.git',
       },
       {
         title: '更新日志',
-        path: 'https://gitlab.ishanggang.com/isg-group/front/isg-jsbridge',
+        path: 'https://github.com/Hunter-Shen-N/devops-md/commits/main',
       },
     ],
   },
   favicon:
-    'https://frontassets.oss-cn-shanghai.aliyuncs.com/assets/%E7%88%B1%E4%B8%8A%E5%B2%97logo130-130.png',
+    'http://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/1051617871570_.pic.jpg',
   logo:
-    'https://frontassets.oss-cn-shanghai.aliyuncs.com/assets/%E7%88%B1%E4%B8%8A%E5%B2%97logo130-130.png',
+    'http://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/1051617871570_.pic.jpg',
   outputPath: 'docs-dist',
   hash: true,
 });

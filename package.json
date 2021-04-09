@@ -1,5 +1,5 @@
 {
-  "name": "isg-bridge",
+  "name": "devops-md",
   "version": "1.1.0",
   "scripts": {
     "start": "dumi dev",
