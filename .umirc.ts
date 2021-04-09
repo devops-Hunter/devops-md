@@ -12,7 +12,7 @@ export default defineConfig({
       },
       {
         title: 'Changelog',
-        path: 'https://github.com/Hunter-Shen-N/devops-md/commits/main',
+        path: 'https://github.com/Hunter-Shen-N/devops-md.git',
       },
     ],
     'zh-CN': [
@@ -23,14 +23,14 @@ export default defineConfig({
       },
       {
         title: '更新日志',
-        path: 'https://github.com/Hunter-Shen-N/devops-md/commits/main',
+        path: 'https://github.com/Hunter-Shen-N/devops-md.git',
       },
     ],
   },
   favicon:
-    'http://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/1051617871570_.pic.jpg',
+    'http://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/hunter-docs/WechatIMG105.jpeg',
   logo:
-    'http://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/1051617871570_.pic.jpg',
+    'http://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/hunter-docs/WechatIMG105.jpeg',
   outputPath: 'docs-dist',
   hash: true,
 });
