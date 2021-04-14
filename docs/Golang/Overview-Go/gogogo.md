@@ -30,12 +30,15 @@ nav:
 ### 🔨 实验：malacandra.go
 
 <Alert type="info">
- # Malacandra并不遥远，我们大约只需二十八天就可以到达哪里。 --C.S.Lewis，《沉寂的星球》
-
-编写一个程序，计算出在距离为 56,000,000 公里的情况下，宇宙飞船需要以每小时多少公里的速度飞行才能够只用 28 天就到达 Malacandra（火星）
+Malacandra并不遥远，我们大约只需二十八天就可以到达哪里。 --C.S.Lewis，《沉寂的星球》
 </Alert>
 
-```golang
+#### \*\*<Badge>
+
+编写一个程序，计算出在距离为 56,000,000 公里的情况下，宇宙飞船需要以每小时多少公里的速度飞行才能够只用 28 天就到达 Malacandra（火星）
+</Badge>\*\*
+
+```go
 package main
 
 import "fmt"
