@@ -9,6 +9,8 @@ nav:
 
 ## 📋 Go 获取 SQL 信息并发送 request 请求到企业微信机器人
 
+### 企业微信群机器人接口文档 [wechat](https://open.work.weixin.qq.com/api/doc/90000/90136/91770 'wechat')
+
 ```go
 package main
 
@@ -144,3 +146,7 @@ spec:
   successfulJobsHistoryLimit: 3
   suspend: false
 ```
+
+### 🔨 最终效果图
+
+![image.png](http://tufa-image.ishanggang.com/hunter-docs/%E6%9C%BA%E5%99%A8%E4%BA%BA.png)
