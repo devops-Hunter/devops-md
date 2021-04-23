@@ -1,5 +1,5 @@
 ---
-title: 删除处于Terminating状态的NAMESPACE
+title: 处理状态为（Evicted）的pod
 order: 3
 nav:
   title: Kubernetes
