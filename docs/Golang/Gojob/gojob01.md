@@ -7,7 +7,7 @@ nav:
   order: 4
 ---
 
-## 📋 Go 获取 SQL 信息并发送 request 请求到企业微信机器人
+## 📋 Go 获取 SQL(MYSQL) 信息并发送 request 请求到企业微信机器人
 
 ### 企业微信群机器人接口文档 [wechat](https://open.work.weixin.qq.com/api/doc/90000/90136/91770 'wechat')
 
