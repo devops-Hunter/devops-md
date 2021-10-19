@@ -1,10 +1,10 @@
 ---
 title: 2.4打野笔记
-order: 4
+order: 5
 nav:
-  title: Golang
-  path: /Golang
-  order: 4
+  title: LOL-M
+  path: /LOL-M
+  order: 5
 ---
 
 # 🏷 LOL-M 野区笔记
