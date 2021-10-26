@@ -38,7 +38,7 @@ docker run \
 ![image.png](https://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/hunter-docs/jenkins/1635218893620.jpg)
 ![image.png](https://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/hunter-docs/jenkins/1635219025117.jpg)
 
-- 安装插件`Manage Plugins` `gitlab`
+- 安装插件`nodejs` `gitlab`
 
 ![image.png](https://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/hunter-docs/jenkins/1635221567303.jpg)
 
