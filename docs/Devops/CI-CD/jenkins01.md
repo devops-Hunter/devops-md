@@ -24,7 +24,7 @@ docker run \
   -p 6080:8080 \   #映射端口，第一个数字代表宿主机上的端口
   -p 50000:50000 \
   -v /ops/jenkins:/var/jenkins_home \   #数据卷存储路径,第一个路径代表宿主机本地路径
-  jenkins
+  jenkinsci/blueocean
 ```
 
 #### <Badge>访问{宿主机 ip:6080}</Badge>
