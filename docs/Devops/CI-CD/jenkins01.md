@@ -55,7 +55,9 @@ docker run \
 <Alert type="info">
 编写一个jenkins-pipeline来接收git-webhook并构建打包
 </Alert>
+
 ![image.png](https://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/hunter-docs/jenkins/1635219445223.jpg)
+
 ![image.png](https://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/hunter-docs/jenkins/1635221736540.jpg)
 
 - 勾选`Build when a change is pushed to GitLab. GitLab webhook URL`
