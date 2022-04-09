@@ -1,5 +1,5 @@
 ---
-title: Go脚本
+title: Go脚本(拓展)
 order: 6
 nav:
   title: Golang

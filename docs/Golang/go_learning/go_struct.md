@@ -1,5 +1,5 @@
 ---
-title: 笔记而已①
+title: Struct
 order: 4
 nav:
   title: Golang
@@ -7,12 +7,12 @@ nav:
   order: 4
 ---
 
-# 🏷 仅仅是笔记
+# 🏷 结构体(Struct)
 
 
 
 
-## 📋 结构体
+## 📋 结构体初始化
 
 ---
 <Alert type="info">
