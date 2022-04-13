@@ -1,3 +1,11 @@
+---
+title: AOE
+order: 7
+nav:
+title: AOE
+path: /aoe
+order: 7
+---
 # 英格兰
 
 ## 开局6农民分工
