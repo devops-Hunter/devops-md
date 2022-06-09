@@ -1,5 +1,5 @@
 ---
-title: Struct
+title: Struct（结构体）
 order: 4
 nav:
   title: Golang
