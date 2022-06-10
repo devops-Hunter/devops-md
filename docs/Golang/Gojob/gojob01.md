@@ -1,5 +1,5 @@
 ---
-title: Go脚本
+title: WechatJob（企微通知脚本）
 order: 5
 nav:
   title: Golang
