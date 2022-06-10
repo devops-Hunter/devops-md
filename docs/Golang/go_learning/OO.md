@@ -1,5 +1,5 @@
 ---
-title: 面向对象（Object Oriented）
+title: Object Oriented（面向对象）
 order: 5
 nav:
   title: Golang

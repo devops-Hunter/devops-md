@@ -1,5 +1,5 @@
 ---
-title: Go概览
+title: Go（概览）
 order: 3
 nav:
   title: Golang
