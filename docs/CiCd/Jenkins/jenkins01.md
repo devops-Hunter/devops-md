@@ -64,7 +64,7 @@ docker run \
 
 ![image.png](https://rdsbackuposs.oss-cn-shanghai.aliyuncs.com/hunter-docs/jenkins/1635221736540.jpg)
 
-```groovy
+```python
 #!/usr/bin/env groovy
 // 所需插件: Git Parameter 动态从git中获取所有分支
 //Git 拉取代吗
