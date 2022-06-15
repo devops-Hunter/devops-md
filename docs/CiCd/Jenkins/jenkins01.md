@@ -1,9 +1,9 @@
 ---
-title: Jenkins
+title: Jenkins部署
 order: 6
 nav:
-  title: Jenkins
-  path: /jenkins
+  title: CiCd
+  path: /cicd
   order: 6
 ---
 
