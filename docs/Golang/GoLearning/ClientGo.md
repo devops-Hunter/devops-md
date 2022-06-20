@@ -37,7 +37,7 @@ func main () {
 		panic(err)
 	}
 	//使用clientset获取pod列表
-	podList, err := clientset.CoreV1().Pods("app-dev").
+	podList, err := clientset.CoreV1().Pods("default").
 		List(context.TODO(), metav1.ListOptions{})
 	if err != nil {
 		panic(err)

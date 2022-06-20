@@ -9,6 +9,20 @@ nav:
 
 # 🏷 Gin框架
 
+## 📋 Gin 目录结构
+|--- Readme.md      `项目说明`
+|--- config      `配置文件：ip，端口，用户名，密码等`
+|--- controller `CLD服务入口：负责处理路由，参数效验，请求转发`
+|--- service    `CLD逻辑（服务）层：负责业务逻辑处理`
+|--- dao      `CLD负责数据与存储相关功能: mysql，redis等`
+|--- model     `模型`
+|--- logging    `日志处理`
+|--- main.go    `项目启动入口`
+|--- middleware  `中间件`
+|--- pkg   `公共服务`
+|--- router   `路由`
+
+
 ## 📋 框架结构
 <Alert type="info">
 常用包和Gin框架
