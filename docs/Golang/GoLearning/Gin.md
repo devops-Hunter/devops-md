@@ -20,7 +20,7 @@ nav:
 
 |--- dao      `CLD负责数据与存储相关功能: mysql，redis等`
 
-|--- model     `模型`
+|--- model     `模型（定义表结构）`
 
 |--- logging    `日志处理`
 
@@ -28,9 +28,11 @@ nav:
 
 |--- middleware  `中间件`
 
-|--- pkg   `公共服务`
+|--- pkg   `公共服务（所有模块都能访问的服务）`
 
-|--- router   `路由`
+|--- router   `路由（路由分发）`
+
+初始化项目`go mod init xxx`
 
 
 ## 📋 框架结构
