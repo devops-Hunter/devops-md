@@ -225,3 +225,78 @@ func ResponseRedirectHandler(c *gin.Context) {
 }
 
 ```
+
+
+## 📋中间件
+
+- Gin框架允许开发者在处理请求的过程中，加入用户自己的钩子（Hook）函数
+- 这个钩子函数就叫做中间件，中间件适合处理一些公共的业务逻辑
+- 比如登录认证，权限效验，数据分页，记录日志，耗时统计等
+
+
+### 🔨身份验证
+
+<Alert type="info">
+举例
+</Alert>
+`http://127.0.0.1:8080/index  index首页无需token直接访问`
+`http://127.0.0.1:8080/home   home目录需要对token进行验证，验证通过才可以访问`
+
+```go
+package main
+
+import (
+	"fmt"
+	"github.com/gin-gonic/gin"
+	"net/http"
+)
+func Auth() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		// 通过c.Request的结构体我们可以取出http header中的token信息
+		token := c.Request.Header.Get("token")
+		fmt.Println("获取token为", token)
+		if token != "hunter" {
+			c.String(http.StatusForbidden, "身份验证不通过")
+			c.Abort() //终止当前请求，不会将请求转发给路由，所以处理函数不会执行
+			return
+		}
+		c.Next() //可以向下执行,从这里跳到处理函数
+	}
+}
+//中间件进行身份验证
+
+func main() {
+	r := gin.Default()
+
+	//首页,无需登录直接访问
+	r.GET("/index", func(c *gin.Context){
+		c.JSON(http.StatusOK, gin.H{"msg": "首页"} )
+	})
+
+	r.GET("/home", Auth(), func(c *gin.Context){
+		c.JSON(http.StatusOK, gin.H{"msg": "home目录需要验证token"} )
+	})
+
+	r.Run(":9092")
+}
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
