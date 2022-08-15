@@ -7,11 +7,11 @@ nav:
   order: 1
 ---
 
-## Kubernetes 网络概览
+# Kubernetes 网络概览
 
 📦 🔨
 
-`文章转自https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/#kubernetes-basic，加上一些注释便于理解`
+
 
 **Kubernetes 的四种网络**
 
