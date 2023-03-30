@@ -19,7 +19,7 @@ AzureDevops 是由微软开发的服务平台，它提供了多种工具，可�
 
 # 流水线整体框架
 
-![azurePipelines.png](http://image.devopsn.com/docs/devops/cicd/azuredevops/azurepipeline/2.png)
+![azurePipelines.png](https://docs.devopsn.com/images/docs/devops/cicd/azuredevops/azurepipeline/2.png)
 **首先我们将按照AzureDevops Pipeline内嵌的Task模块以及Shell脚本将流水线步骤进行拆解：**
 第一步骤codeBuild（即代码编译打包）
 
@@ -46,7 +46,7 @@ AzureDevops 是由微软开发的服务平台，它提供了多种工具，可�
 ## 第零步骤：前期配置
 
 ①首先我们需要在azureDevops界面中配置一些Service Connections用于存放k8s集群连接配置，镜像仓库配置，Git仓库等
-![image.png](http://image.devopsn.com/docs/devops/cicd/azuredevops/azurepipeline/1.png)
+![image.png](https://docs.devopsn.com/images/docs/devops/cicd/azuredevops/azurepipeline/1.png)
 
 ②开始创建pipeline,选择项目仓库。默认会在项目中提交一个**azure-pipelines.yaml**文件用于存放流水线源码(这个pipeline文件可以放在项目源码仓库中，也可以和项目的kustomize仓库放在一起）
 本次实践采用了Azure Repos Git
