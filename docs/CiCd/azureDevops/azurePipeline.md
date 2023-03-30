@@ -1,5 +1,5 @@
 ---
-title: azureDevops
+title: azurePipeline
 order: 7
 nav:
   title: CiCd
