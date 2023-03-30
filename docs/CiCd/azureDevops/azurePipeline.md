@@ -50,14 +50,14 @@ AzureDevops 是由微软开发的服务平台，它提供了多种工具，可�
 
 ②开始创建pipeline,选择项目仓库。默认会在项目中提交一个**azure-pipelines.yaml**文件用于存放流水线源码(这个pipeline文件可以放在项目源码仓库中，也可以和项目的kustomize仓库放在一起）
 本次实践采用了Azure Repos Git
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/32484067/1674137521108-539618b2-946b-4ecd-9ff0-859d96568c25.png#averageHue=%231c1b1b&clientId=u3cda970d-f01f-4&from=paste&height=591&id=uffc28b0e&name=image.png&originHeight=1182&originWidth=1370&originalType=binary&ratio=1&rotation=0&showTitle=false&size=195294&status=done&style=none&taskId=uf596d9e4-144f-4d83-a9a0-7f503875f24&title=&width=685)
+![image.png](https://docs.devopsn.com/images/docs/devops/cicd/azuredevops/azurepipeline/3.png)
 ③选择start pipeline我们开始编写流水线
 
 ④点击右上角的Variables，将项目kustomize仓库的Git用户名密码填写到变量中，可以选择加密存储。
 这里的变量还可以暂存一些参数（比如每次发布时pod的数量，jvm的启动参数，灰度发布的权重占比等等。。。），在执行pipeline时通过UI实时修改变量参数，玩法较多，这里就不展开了。详情见[https://learn.microsoft.com/en-us/azure/devops/pipelines/security/inputs?view=azure-devops](https://learn.microsoft.com/en-us/azure/devops/pipelines/security/inputs?view=azure-devops)
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/32484067/1674138035617-fb8945a1-6035-4cb9-a471-bdfed63a1144.png#averageHue=%23272626&clientId=u3cda970d-f01f-4&from=paste&height=321&id=u214ea452&name=image.png&originHeight=642&originWidth=1030&originalType=binary&ratio=1&rotation=0&showTitle=false&size=59923&status=done&style=none&taskId=u8300f221-0c9b-4d21-90d7-f7d5a1bf09e&title=&width=515)
+![image.png](https://docs.devopsn.com/images/docs/devops/cicd/azuredevops/azurepipeline/4.png)
 
-**⑤可选项：这里可以关闭自动构建。不然在调试阶段每次保存pipeline后默认都会有钩子自动触发流水线。后续在dev/test环境需要自动发版时可以再打开。**![image.png](https://cdn.nlark.com/yuque/0/2023/png/32484067/1674138760838-032cd54c-0df0-423a-97c0-5d48bba23975.png#averageHue=%23191919&clientId=u3cda970d-f01f-4&from=paste&height=424&id=u7eb7a6db&name=image.png&originHeight=848&originWidth=2184&originalType=binary&ratio=1&rotation=0&showTitle=false&size=166739&status=done&style=none&taskId=u05584a5c-b011-4233-b767-b18dc74176d&title=&width=1092)
+**⑤可选项：这里可以关闭自动构建。不然在调试阶段每次保存pipeline后默认都会有钩子自动触发流水线。后续在dev/test环境需要自动发版时可以再打开。**![image.png](https://docs.devopsn.com/images/docs/devops/cicd/azuredevops/azurepipeline/5.png)
 
 ## 第一步骤：codeBuild
 
@@ -266,8 +266,8 @@ jobs:
 
 - 按照KubernetesManifest@0模块，就是把kustomize的yaml文件渲染出来再apply。但是该模块还是加了一些逻辑。比如会用rollout status检查目前的服务状态，annotate加一些流水线本身的参数用于版本控制等
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/32484067/1674142599200-d66d0a30-8dcf-41d6-b1b2-d359010e9d6d.png#averageHue=%23272626&clientId=ufea0f642-7742-4&from=paste&height=431&id=u1768a1f6&name=image.png&originHeight=862&originWidth=994&originalType=binary&ratio=1&rotation=0&showTitle=false&size=97206&status=done&style=none&taskId=u6164cb95-9b58-454e-b9dd-4f51f109db8&title=&width=497)
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/32484067/1674142571118-12504836-30e7-4721-8699-2dbdca711d39.png#averageHue=%231f1e1e&clientId=ufea0f642-7742-4&from=paste&height=447&id=u593bb232&name=image.png&originHeight=894&originWidth=1268&originalType=binary&ratio=1&rotation=0&showTitle=false&size=141218&status=done&style=none&taskId=ucf4176b2-769f-4da9-b249-f15db0a4d00&title=&width=634)
+![image.png](https://docs.devopsn.com/images/docs/devops/cicd/azuredevops/azurepipeline/6.png)
+![image.png](https://docs.devopsn.com/images/docs/devops/cicd/azuredevops/azurepipeline/7.png)
 runPipeline时我们就可以选择项目tag了。最后的效果是这样滴
 
 # 总结
