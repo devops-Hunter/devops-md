@@ -1,8 +1,8 @@
 ---
-title: chatGPT
+title: promptK8s
 order: 1
 nav:
-  title: promptK8s
+  title: chatGPT
   path: /chatgpt
   order: 1
 ---
