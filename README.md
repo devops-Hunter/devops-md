@@ -9,12 +9,14 @@
 
 ---
 分享内容包括且不限于：
-- 无趣的Kubernetes八股文，可能会有的源码分析
+- 无趣的Kubernetes八股文，可能会有的核心api源码分析
 - 可观测性技术【Grafana全家桶，Prometheus，VictoriaMetrics，OpenTelemetry，EFK】
 - 花里胡哨的CICD【JenkinsGroovy，Tekton，Argocd，AzureDevops，Helm，Kustomize】
-- Go二开【Exporter，Operator ，Client-Go】
+- Go二开【Exporter，Operator ，Client-Go解析】
 - 云原生套件【Openkruise,Crane】
 - 网关【Kong，Ingress-nginx，APISIX】
-- 网络【网络层面相对弱势，会抓紧补习】
+- 网络【calico,cilium】
 - ServiceMesh【Istio,Linkerd】
-- chatGPT试水
+- chatGPT运维层面的探索【传说中的aiops？】
+
+![image.png](https://docs.devopsn.com/images/docs/devops/index/1.jpg)
