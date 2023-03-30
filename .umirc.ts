@@ -8,12 +8,12 @@ export default defineConfig({
       null,
       {
         title: 'GitHub',
-        path: 'https://github.com/Hunter-Shen-N/devops-md.git',
+        path: 'https://github.com/devops-Hunter/devops-md.git',
       },
-      {
-        title: 'Changelog',
-        path: 'https://github.com/Hunter-Shen-N/devops-md.git',
-      },
+      // {
+      //   title: 'Changelog',
+      //   path: 'https://github.com/devops-Hunter/devops-md.git',
+      // },
     ],
     'zh-CN': [
       null,

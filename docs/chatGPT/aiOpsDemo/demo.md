@@ -1,5 +1,5 @@
 ---
-title: promptK8s
+title: chatGPT
 order: 1
 nav:
   title: promptK8s
@@ -137,7 +137,7 @@ go build -o bin/pipe2gpt cmd/main.go
 # export OPENAI_TOKEN需要在环境变量中输入你的OpenAI API 密钥
 export OPENAI_TOKEN=xxxx
 
-# 现在就可以让ai来帮你排插啦
+# 现在就可以让ai来帮你排查啦
 kubectl get pods | pipe2gpt --type=k8s
 
 #可以将这个go编写命令行工具通过任意方式改成kubectl插件，这里不赘述
