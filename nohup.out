@@ -1,0 +1,307 @@
+
+> devops@0.0.1 dev
+> dumi dev
+
+info  - dumi v2.1.17
+info  - Umi v4.0.64
+info  - [MFSU] restore cache
+        ╔════════════════════════════════════════════════════╗
+        ║ App listening at:                                  ║
+        ║  >   Local: http://localhost:8000                  ║
+ready - ║  > Network: http://192.168.0.30:8000               ║
+        ║                                                    ║
+        ║ Now you can open browser with the above addresses↑ ║
+        ╚════════════════════════════════════════════════════╝
+event - [Webpack] Compiled in 2102 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 234 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 149 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 1180 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 209 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 625 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 258 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 445 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 249 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 507 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 233 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 783 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 181 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 689 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 364 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 346 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 219 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 975 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 263 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 372 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 141 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 629 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 180 ms (503 modules)
+info  - [MFSU] skip buildDeps
+event - config themeConfig changed, restart server...
+info  - Restart dev server with port 8000...
+info  - Umi v4.0.64
+info  - [MFSU] restore cache
+        ╔════════════════════════════════════════════════════╗
+        ║ App listening at:                                  ║
+        ║  >   Local: http://localhost:8000                  ║
+ready - ║  > Network: http://192.168.0.30:8000               ║
+        ║                                                    ║
+        ║ Now you can open browser with the above addresses↑ ║
+        ╚════════════════════════════════════════════════════╝
+event - [Webpack] Compiled in 10972 ms (832 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 244 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 181 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 629 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 226 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 372 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 202 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 349 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 247 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 244 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 431 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 329 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 214 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 268 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 199 ms (503 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 796 ms (505 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 923 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 380 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 215 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 323 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 204 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 475 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 173 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 327 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 326 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 377 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 308 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 331 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 339 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 225 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 143 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 235 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 346 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 329 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 202 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 241 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 166 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 431 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 173 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 427 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 182 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 441 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 149 ms (517 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 838 ms (519 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 699 ms (521 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 541 ms (523 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 658 ms (523 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 248 ms (523 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 488 ms (523 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 211 ms (523 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 526 ms (523 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 197 ms (523 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 958 ms (525 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 323 ms (525 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 329 ms (525 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 462 ms (525 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 214 ms (525 modules)
+info  - [MFSU] skip buildDeps
+event - public dir changed, restart server...
+info  - Restart dev server with port 8000...
+info  - Umi v4.0.64
+info  - [MFSU] restore cache
+        ╔════════════════════════════════════════════════════╗
+        ║ App listening at:                                  ║
+        ║  >   Local: http://localhost:8000                  ║
+ready - ║  > Network: http://192.168.0.30:8000               ║
+        ║                                                    ║
+        ║ Now you can open browser with the above addresses↑ ║
+        ╚════════════════════════════════════════════════════╝
+event - [Webpack] Compiled in 2393 ms (525 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 299 ms (525 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 210 ms (525 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 194 ms (525 modules)
+info  - [MFSU] skip buildDeps
+event - config themeConfig changed, restart server...
+info  - Restart dev server with port 8000...
+info  - Umi v4.0.64
+info  - [MFSU] restore cache
+        ╔════════════════════════════════════════════════════╗
+        ║ App listening at:                                  ║
+        ║  >   Local: http://localhost:8000                  ║
+ready - ║  > Network: http://192.168.0.30:8000               ║
+        ║                                                    ║
+        ║ Now you can open browser with the above addresses↑ ║
+        ╚════════════════════════════════════════════════════╝
+event - [Webpack] Compiled in 12978 ms (854 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 531 ms (525 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 180 ms (525 modules)
+info  - [MFSU] skip buildDeps
+wait  - [Webpack] Compiling...
+event - [Webpack] Compiled in 603 ms (525 modules)
+info  - [MFSU] skip buildDeps
