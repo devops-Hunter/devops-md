@@ -1,6 +1,10 @@
 # devops
 
-A static site base on [dumi](https://d.umijs.org).
+[docs.devopsn.com](https://d.umijs.org).
+
+## Version
+
+node >= 16
 
 ## Development
 
